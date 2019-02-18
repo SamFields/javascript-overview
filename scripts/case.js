@@ -9,17 +9,17 @@ const ansElement = document.getElementById("answer");
 
 console.log('INFO: Configuring event handlers');
 
-inputElement1.onclick = function () {
-  alert("thanks for clicking input 1!");
-};
+// inputElement1.onclick = function () {
+//   alert("thanks for clicking input 1!");
+// };
 
-inputElement2.ondblclick = () => {
-  alert("thanks for double clicking input 2!");
-};
+// inputElement2.ondblclick = () => {
+//   alert("thanks for double clicking input 2!");
+// };
 
-//inputElement2.addEventListener("mouseover", () => {
+// inputElement2.addEventListener("mouseover", () => {
 //  alert("thanks for mousing over input 2!");
-//});
+// });
 
 
 btnElement.onclick = async function () {
